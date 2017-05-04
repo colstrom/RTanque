@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rtanque/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "rtanque"
-  gem.version       = RTanque::VERSION
+  gem.name          = "colstrom-rtanque"
+  gem.version       = '0.1.4'
   gem.authors       = ["Adam Williams"]
   gem.email         = ["pwnfactory@gmail.com"]
   gem.summary       = %q{RTanque is a game for programmers. Players program the brain of a tank and then send their tank into battle against other tanks.}
@@ -26,7 +26,7 @@ Have fun competing against friends' tanks or the sample ones included. Maybe you
   gem.add_dependency 'configuration', '~> 1.3.2'
   gem.add_dependency 'octokit', '~> 2.7.0'
   gem.add_dependency 'thor', '~> 0.17.0'
-  gem.add_dependency 'texplay', '~> 0.4', '>= 0.4.3'
+  gem.add_dependency 'texplay', '~> 0.4', '>= 0.4.4.pre'
 
   gem.add_development_dependency 'pry'
   gem.add_development_dependency 'rspec', '~> 2.13.0'
